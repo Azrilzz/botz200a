@@ -131,9 +131,9 @@ var qr_code_ovo = 'https://h.top4top.io/p_2053vk0uw1.jpg' //gk usah di ubah ya k
 var qr_code_dana = 'https://j.top4top.io/p_20532posd1.jpg' //gk usah di ubah ya klo gk punya ntr eror
 var qr_code_gopay = 'https://i.top4top.io/p_2053em3vh1.jpg' //gk usah di ubah ya klo gk punya ntr eror
 
-var _minggu = 'Rp 10.000,00' //Masukkan harga sewa sesuai keinginan
-var __minggu = 'Rp 15.000,00'
-var ___minggu = 'Rp 20.000,00'
+var _minggu = 'Rp 5.000,00' //Masukkan harga sewa sesuai keinginan
+var __minggu = 'Rp 10.000,00'
+var ___minggu = 'Rp 15.000,00'
 var _bulan = 'Rp 22.000,00'
 var _permanen = 'Rp 100.000,00'
 
@@ -1111,8 +1111,8 @@ ini_anu =`${ucapannya2} @${sender.split('@')[0]}
 ┃⬡ Group Chat : _${giid.length}_
 ┃⬡ Private Chat : _${totalchat.length - giid.length}_
 ┃⬡ Total Chat : _${totalchat.length}_
-┃⬡ Lib  : _Baileys_
-┃⬡ Type  : _NodeJs_
+┃⬡ Lib  : _Linux_
+┃⬡ Type  : _Rdp_
 ┃⬡ Total hit : _${hitall}_
 ┃⬡ Hit today : _${hit_today.length}_
 ┃⬡ Speed : _${latensii.toFixed(4)} Second_
@@ -1132,7 +1132,7 @@ ini_anu =`${ucapannya2} @${sender.split('@')[0]}
 ┗⬣`
 const buttons = [
   {buttonId: 'Command', buttonText: {displayText: '📖 Command'}, type: 1},
-  {buttonId: 'ownerku', buttonText: {displayText: '🙍‍♂️ Owner'}, type: 1},
+  {buttonId: 'ownerku', buttonText: {displayText: '💙 Owner'}, type: 1},
   {buttonId: 'grup bot', buttonText: {displayText: '💌 Group Bot'}, type: 1}
 ]
 
