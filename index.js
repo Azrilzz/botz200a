@@ -176,9 +176,9 @@ let _diamond11 = '⦿ M.MINGGUAN';      let diamond11 = 'Rp 30.000,00';
 let _diamond12 = '⦿ M.BULANAN';         let diamond12 = 'Rp 110.000,00';
 
 img = setting.img
-baper = 'Jangan Di Klik'
-apiku = 'https://youtu.be/2rWbjrDIAyA'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+baper = 'Jangan Di Klik Ini Sad Sound'
+apiku = 'https://youtu.be/5odMRQDrhoI'
+gc_wa_lu = 'https://chat.whatsapp.com/EU890kNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -490,22 +490,22 @@ await alpha.updatePresence(from, Presence.composing)
             
             const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Night 🌚`
 }
         if(time2 < "19:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Night 🌚`
 }
         if(time2 < "18:00:00"){
-        var ucapannya2 = `Afternoon 🌅 ${pushname}`
+        var ucapannya2 = `Afternoon 🌅`
 }
         if(time2 < "15:00:00"){
-        var ucapannya2 = `GoodDay 🌞 ${pushname}`
+        var ucapannya2 = `GoodDay 🌞`
 }
         if(time2 < "11:00:00"){
-        var ucapannya2 = `Morning 🌄 ${pushname}`
+        var ucapannya2 = `Morning 🌄`
 }
         if(time2 < "05:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Night 🌚`
 }
 mess = {
 			wait: '```[ ! ] Proses kak...```',
@@ -1111,8 +1111,7 @@ ini_anu =`${ucapannya2} @${sender.split('@')[0]}
 ┃⬡ Group Chat : _${giid.length}_
 ┃⬡ Private Chat : _${totalchat.length - giid.length}_
 ┃⬡ Total Chat : _${totalchat.length}_
-┃⬡ Lib  : _Linux_
-┃⬡ Type  : _Rdp_
+┃⬡ Type  : _Linux_
 ┃⬡ Total hit : _${hitall}_
 ┃⬡ Hit today : _${hit_today.length}_
 ┃⬡ Speed : _${latensii.toFixed(4)} Second_
@@ -1131,9 +1130,9 @@ ini_anu =`${ucapannya2} @${sender.split('@')[0]}
 ┃⬡ CoOwner : _${isCoOwner ? 'True' : `False`}_
 ┗⬣`
 const buttons = [
-  {buttonId: 'Command', buttonText: {displayText: '📖 Command'}, type: 1},
-  {buttonId: 'ownerku', buttonText: {displayText: '💙 Owner'}, type: 1},
-  {buttonId: 'grup bot', buttonText: {displayText: '💌 Group Bot'}, type: 1}
+  {buttonId: 'Command', buttonText: {displayText: '⌨ Command'}, type: 1},
+  {buttonId: 'ownerku', buttonText: {displayText: '👑 Owner'}, type: 1},
+  {buttonId: 'grup bot', buttonText: {displayText: '📼 Sewa'}, type: 1}
 ]
 
 const btn = {
@@ -1905,8 +1904,8 @@ case 'bcgif':
 					}, 'contactsArrayMessage', { quoted: fkontak})
 					var ini_gopayy =`Halo @${sender.split("@")[0]} itu owner ku, jangan lupa donasi kak😇`
 var buttonss = [
-{buttonId: 'donasi_kak', buttonText:{displayText: 'Donasi ♨️'}, type: 1},
-{buttonId: 'sewa_kak', buttonText:{displayText: 'List Sewa 🔖'}, type: 1},
+{buttonId: 'donasi_kak', buttonText:{displayText: 'Donasi 💰'}, type: 1},
+{buttonId: 'sewa_kak', buttonText:{displayText: 'List Sewa 📼'}, type: 1},
 {buttonId: 'grup bot', buttonText: {displayText: 'Group Support 💌'}, type: 1}
 ]
 
